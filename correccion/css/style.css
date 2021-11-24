@@ -1,0 +1,70 @@
+/*segunda pagina*/
+.titulo__header{
+    border: 1px solid crimson;
+}
+
+.imagen__muestra{
+    height: 700px;
+    border: 1px solid crimson;
+}
+
+.resumen__home{
+    margin: 30px 0px 30px 0px;
+    border: 1px solid crimson;
+}
+
+.lista__home{
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    border: 1px solid yellow;
+}
+
+/*segunda pagina*/
+.titulo__texto{
+    border: 1px solid crimson;
+    margin: 20px 0px 0px 0px;
+}
+
+.texto__descripcion{
+    border: 1px solid crimson;
+    margin: 20px 0px 0px 0px;
+}
+
+.titulo__personajes{
+    border: 1px solid crimson; 
+    margin: 30px 0px 0px 0px;
+}
+.imagen__muestra1{
+    height: 300px;
+    border: 1px solid crimson;
+}
+
+.texto__personajes{
+    border: 1px solid crimson;
+    margin: 10px 0px 0px 0px;
+}
+
+.titulo__personajes{
+    border: 1px solid crimson;
+    margin: 10px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
