@@ -1,0 +1,252 @@
+body{
+    background-color: hsl(34, 78%, 91%);
+}
+
+/*  HEADER  */
+
+.container{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.logo__header{
+    width: 200px;
+}
+
+.lista__home{
+    background-color: #500f17;
+    padding: 10px 0px 10px 0px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    color: blanchedalmond;
+    border-radius: 1px;
+
+}
+
+ul{
+    font-family: 'Special Elite', cursive;
+    font-size: 24px;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+    }
+
+
+    
+/* HOME*/
+.imagen__rostros{
+    margin: 80px 0px 0px 0px;
+    height: 300px;
+}
+
+.imagen__rostro{
+    margin: 80px 0px 30px 0px;
+    z-index: -1;
+    height: 450px;
+}
+
+.resumen__home{
+    margin: 100px 0px 220px 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* footer*/
+.imagen__footer{
+    width: 180px;
+    display:block;
+    margin:auto;
+    padding: 0px 0px 20px 0px;
+}
+
+.sociales{
+    list-style: none;
+    display: flex;
+    background-color: white;
+    border-radius: 20px; 
+    justify-content: center;
+    opacity: 0.6;
+}
+
+
+.copyright{
+    font-weight: lighter;
+    font-size: 9px;
+    color: rgb(199, 199, 199);
+    text-align: center;
+
+}
+
+
+.container__fondo{
+    padding: 20px 0px 0px 0px;
+}
+
+.fondo__desktop{
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    display:block;
+    margin: -10px 0px 0px 0px;
+    opacity: 0.8;
+}
+
+.fondo__mobile{
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    z-index: -1;
+    display: none;
+    margin: -20px 0px 0px 0px;
+    opacity: 0.8;
+}
+
+@media(max-width:786px) {
+    .fondo__mobile  {
+        display: block !important; 
+       
+    }
+
+    .fondo__desktop {
+        display: none !important; 
+    }
+}
+
+
+/*  PERSONAJES  */
+
+.titulo__texto{
+    margin: 80px 0px 20px 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.texto__descripcion{
+    margin: 0px 0px 60px 0px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.titulo__personajes{
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+     margin: 20px 0px 20px 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.imagen__personajes{
+   margin: 0px 0px 5px 0px;
+}
+
+.texto__personajes{
+    padding: 10px 40px 50px 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+.titulo__personajesASE{
+    font-family: 'Special Elite', cursive;
+    font-size: 22px;
+    margin: 20px 0px 20px 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+.imagen__personajesASE{
+    margin: 0px 0px 5px 0px;
+}
+.texto__personajesASE{
+    font-size: 18px;
+    padding: 10px 40px 40px 20px;
+    font-weight: 500;
+}
+
+.titulox2__personajesASE{
+    font-family: 'Special Elite', cursive;
+    font-size: 15px;
+    margin: 75px 0px 0px 0px;
+    padding: 0px 0px 30px 0px;
+} 
+
+/*  PERSONAJES  */
+
+.slider{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+}
+
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+
+@keyframes cambio {
+    0% { margin-left: 0;}    
+    20% { margin-left: 0;} 
+
+    25% { margin-left: -100%;}    
+    45% { margin-left: -100%;}    
+
+    50% { margin-left: -200%;}    
+    70% { margin-left: -200%;}    
+
+    75% { margin-left: -300%;}    
+    100% { margin-left: -300%;}    
+
+}
+
+.container_foto{
+    margin: 70px 0px 20px 0px;
+    background-image: url(../img/fondotres.jpg);
+    width: 100%;
+    border-radius: 3px;
+    
+}
+
+.img_edford{
+    width: 330px;
+    display: block;
+    margin: auto;
+}
+
+.temporada{
+    margin: 80px 0px 20px 0px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.lista__episodios{
+    background-color: #500f17;
+    padding: 10px 0px 10px 0px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    color: blanchedalmond;
+    border-radius: 1px;
+
+}
+
+
+
